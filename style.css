@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding:0;
+    outline: 0;
+    box-sizing:border-box;
+    background-color:black;
+}
+
+.ring{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin: auto;
+    position:relative;
+    top:200px;
+    width:200px;
+    height:200px;
+    border: 8px solid grey;
+    border-radius:50%;
+    animation-name:ok;
+    animation-iteration-count:infinite;
+    animation-duration:2s;
+    animation-timing-function:ease-in-out;
+    box-shadow:10px;
+}
+@keyframes ok{
+    0%{
+        transform:scale(1.0);
+        opacity:25%
+    }
+    50%{
+        transform: scale(1.25);
+        opacity:50%
+    }
+    75%{
+        transform:scale(1.5);
+        opacity:75%
+    }
+    100%{
+        transform:scale(1.75);
+        opacity:100%
+    }
+}
+/*a{
+    font-size:2rem;
+    color: rgb(240, 203, 203);
+    text-decoration:none;
+    padding:20px 50px;
+    text-transform:uppercase;
+    transition-property: all;
+    transition-duration:1s;
+    transition-timing-function:ease-in-out;
+}
+*/
+/*a:hover{
+    background-color:black
+}
+a:visited{
+    background-color:red;
+}
+*/
